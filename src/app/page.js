@@ -49,7 +49,7 @@ export default function MilestoneForm() {
         <title>Milestone Application</title>{" "}
         <meta
           name="description"
-          content="Apply to Milestone and unlock your potential!"
+          content="Apply to Milestone and unlock your potential"
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-purple-100 via-pink-100 to-red-100 p-4 sm:p-6 md:p-8 relative overflow-hidden">
@@ -118,7 +118,7 @@ export default function MilestoneForm() {
               Unlock Your Potential with Milestone!
             </h1>
             <p className="text-center text-gray-600 mb-12 text-lg">
-              Join us in making a difference
+              We are Drawing chances.
             </p>
             <form onSubmit={handleSubmit} className="space-y-12">
               <Section title="Personal Information ℹ️">
@@ -141,7 +141,7 @@ export default function MilestoneForm() {
                 </div>
               </Section>
 
-              <Section title="We Want to Know More About You 😊">
+              <Section title="We Want to Know More About You">
                 <div className="space-y-6">
                   <FormField
                     name="entry.1906036604"
