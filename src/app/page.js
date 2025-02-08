@@ -121,7 +121,7 @@ export default function MilestoneForm() {
               We are Drawing chances.
             </p>
             <form onSubmit={handleSubmit} className="space-y-12">
-              <Section title="Personal Information ℹ️">
+              <Section title="Personal Information">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <FormField name="entry.1072741402" label="Name" />
                   <FormField
