@@ -1,5 +1,5 @@
 "use client";
-
+import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
 import logo from "@/app/public/assets/painted-logo.png";
@@ -45,6 +45,13 @@ export default function MilestoneForm() {
 
   return (
     <>
+      <Head>
+        <title>Milestone Application</title>{" "}
+        <meta
+          name="description"
+          content="Apply to Milestone and unlock your potential!"
+        />
+      </Head>
       <div className="min-h-screen bg-gradient-to-br from-purple-100 via-pink-100 to-red-100 p-4 sm:p-6 md:p-8 relative overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute top-0 left-0 w-64 h-64 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
